@@ -6,7 +6,6 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>FrontController</display-name>
     <servlet-name>FrontController</servlet-name>
     <servlet-class>com.revature.web.FrontController</servlet-class>
   </servlet>

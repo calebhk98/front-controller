@@ -28,7 +28,7 @@
   		<!-- NONE, CREATE, UPDATE, VALIDATE (prod) -->
   
         <!-- Annotated entity classes -->
-        <mapping class="com.revature.models.Employee"/>
+        <mapping class="com.revature.model.Employee"/>
          
     </session-factory>
 </hibernate-configuration>
