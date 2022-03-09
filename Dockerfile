@@ -2,7 +2,7 @@
 FROM tomcat:8.0-jre8
 
 
-Label maintainer="Caleb Kirschbaum"
+LABEL maintainer="Caleb Kirschbaum"
 
 #Adds a war file if it already exists
 ADD target/FrontController.war /usr/local/tomcat/webapps
