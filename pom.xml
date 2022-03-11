@@ -61,8 +61,10 @@
 
 	</dependencies>
 	
-	
+
 	<build>
+	
+	
 		<!-- This makes it so that when we run mvn clean package it generates FrontController.war INSTEAD of
 		 FrontController-0.0.1-SNAPSHOT.war-->
 		<finalName>${project.artifactId}</finalName>
@@ -73,6 +75,12 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.12.4</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.3.1</version>
 			</plugin>
 
 			<!-- Jacoco Plugin for printing code coverage reports -->
